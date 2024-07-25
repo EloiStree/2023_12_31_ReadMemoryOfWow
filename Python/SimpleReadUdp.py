@@ -19,7 +19,7 @@ def receive_udp_messages():
 
                 # Decode and print the received message
                 message = data.decode("utf-8")
-                print(f"Received message from {address[0]}:{address[1]}: {message}")
+                print(f"Received message from {address[0]}:{address[1]}:{message}")
             except:
                  print(f"Something happened wrong")
             
